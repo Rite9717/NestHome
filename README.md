@@ -101,7 +101,7 @@ A concise overview of NestHome, a full-stack application with a Spring Boot back
 
     **Axios Example:**
 
-    ```js
+    ``` js
     const api = axios.create({
       baseURL: import.meta.env.VITE_API_URL,
       withCredentials: true
@@ -130,8 +130,4 @@ A concise overview of NestHome, a full-stack application with a Spring Boot back
   - **2FA:** Add Two-Factor Authentication for Admin accounts.
   - **Deployment:** Containerize with Docker and deploy to cloud platforms like AWS or GCP.
   - **Role-Aware UI:** Dynamically render frontend components based on user roles.
-  - **Improved Validation:** Enhance UI and API validation for better user experience.
-
-## License 📄
-
-Proprietary or insert your chosen license.
+  - **Improved Validation:** Enhance UI and API validation for a better user experience.
